@@ -1,0 +1,108 @@
+.Weather .date-time {
+  font-weight: bold;
+  margin: 5px;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+.Weather .current-time {
+  font-size: 25px;
+}
+
+.Weather .search-box {
+  margin: 5px;
+  padding: 5px 15px;
+  text-align: right;
+}
+
+.Weather .enter-city {
+  border: solid 1px;
+  border-style: none;
+  border-radius: 10px;
+  margin: 20px 8px;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.Weather .current-city-box {
+  margin: 0 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+.Weather .current-city {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.Weather .current-temp {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.Weather .temp-units {
+  color: #393e46;
+  padding: 5px;
+  position: relative;
+  bottom: 50px;
+  font-size: 15px;
+}
+
+.Weather .fahrenheit-unit,
+.Weather .celsius-unit {
+  color: #393e46;
+  text-decoration: none;
+}
+
+.Weather .fahrenheit-unit:hover,
+.Weather .celsius-unit:hover {
+  color: #c24d2c;
+  cursor: pointer;
+}
+
+.Weather .today-details {
+  font-size: 18px;
+  line-height: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.Weather .current-temp-icon {
+  color: #393e46;
+  font-size: 70px;
+  padding-right: 10px;
+}
+
+.Weather .date-forecast,
+.Weather .forecast-temp {
+  text-align: center;
+}
+
+.Weather .date-forecast {
+  font-weight: 300;
+}
+
+.Weather .forecast-icon {
+  color: #c24d2c;
+  font-size: 18px;
+}
+
+.Weather .forecast-temp {
+  font-size: 15px;
+}
+
+.Weather .forecast-temp-max {
+  font-weight: bold;
+}
+.Weather .forecast-temp-min {
+  color: rgb(46, 44, 44);
+}
+
+.Weather .btn-success:hover {
+  color: green;
+  background: #fff;
+}
+
+.btn-success {
+  margin: 5px;
+}
